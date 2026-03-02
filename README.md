@@ -34,7 +34,7 @@ The demo shows:
 - Orchestrates the services
 - Defines networking and dependencies between containers
 
-## Requirements
+### Requirements
 
 - Docker
 - Docker Compose
@@ -43,7 +43,12 @@ You can install Docker here:
 
 https://docs.docker.com/get-docker/
 
-## Accessing he Services 
+You can view the instruction here: 
+
+https://testdriven.io/blog/dockerizing-flask-with-postgres-gunicorn-and-nginx/
+
+
+### Accessing he Services 
 Main Application Interface: http://localhost:5001.
 Static Assets: Verify Nginx is serving static files at http://localhost:5001/static/hello.txt.
 Media Uploads: View uploaded media files at http://localhost:5001/media/[filename].

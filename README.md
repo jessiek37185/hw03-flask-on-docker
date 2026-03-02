@@ -49,7 +49,7 @@ You can view the instruction here:
 
 https://testdriven.io/blog/dockerizing-flask-with-postgres-gunicorn-and-nginx/
 
-**Security**
+**Security:**
 For secuirity reasons, production credentials are not stored in this repository 
 * `.env.prod`: general production settings
 * `.env.prod.db`: database credentials including `POSTGRES_USER`, `POSTGRES_PASSWORD`, and `POSTGRES_DB`.

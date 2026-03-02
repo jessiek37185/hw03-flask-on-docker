@@ -56,5 +56,7 @@ For secuirity reasons, production credentials are not stored in this repository
 
 ## Accessing he Services 
 Main Application Interface: http://localhost:5001.
+
 Static Assets: Verify Nginx is serving static files at http://localhost:5001/static/hello.txt.
-Media Uploads: View uploaded media files at http://localhost:5001/media/[filename].
+
+Media Uploads: View uploaded media files at http://localhost:5001/media/<filename>.

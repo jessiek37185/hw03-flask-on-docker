@@ -1,4 +1,4 @@
-![Docker Build](https://github.com/jessiek37185/hw02-flask-on-docker/actions/workflows/docker.yml/badge.svg)
+![Docker Build](https://github.com/jessiek37185/hw02-flask-on-docker/actions/workflows/docker-build.yml/badge.svg)
 
 
 # Flask on Docker (Postgres + Gunicorn + Nginx)

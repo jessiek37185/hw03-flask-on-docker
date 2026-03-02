@@ -14,7 +14,7 @@ The demo shows:
 3. Viewing the uploaded image from the server
 
 
-### Components
+## Components
 
 **Flask**
 - Handles application logic and routing
@@ -34,7 +34,7 @@ The demo shows:
 - Orchestrates the services
 - Defines networking and dependencies between containers
 
-### Requirements
+## Requirements
 
 - Docker
 - Docker Compose
@@ -47,8 +47,12 @@ You can view the instruction here:
 
 https://testdriven.io/blog/dockerizing-flask-with-postgres-gunicorn-and-nginx/
 
+**Security**
+For secuirity reasons, production credentials are not stored in this repository 
+* `.env.prod`: general production settings
+* `.env.prod.db`: database credentials including `POSTGRES_USER`, `POSTGRES_PASSWORD`, and `POSTGRES_DB`.
 
-### Accessing he Services 
+## Accessing he Services 
 Main Application Interface: http://localhost:5001.
 Static Assets: Verify Nginx is serving static files at http://localhost:5001/static/hello.txt.
 Media Uploads: View uploaded media files at http://localhost:5001/media/[filename].
